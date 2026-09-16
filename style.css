@@ -5,3 +5,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main p {
+    color: rgb(37, 50, 71);
+}
+
+.container {
+    background-color: #F9FAFC;
+    padding-top: 10px;
+}
+
+h1,
+h1+p {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2,
+h2+p {
+    margin: 20px 0;
+}
+
+section.order {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.blue-link {
+    color: #749BF1;
+}
+
+section.order,
+section.policy {
+    width: 80%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 80%;
+    margin: 30px auto;
+}
+
+ul li,
+ol li {
+    line-height: 1.75;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul+p,
+ol+p {
+    margin: 20px 0;
+}
